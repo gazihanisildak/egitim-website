@@ -56,6 +56,14 @@ export function Footer() {
                   Nutzungsbedingungen
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/impressum"
+                  className="hover:text-orange-400 transition-colors"
+                >
+                  Impressum
+                </Link>
+              </li>
             </ul>
           </div>
 

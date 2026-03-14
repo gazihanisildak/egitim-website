@@ -116,9 +116,45 @@ export default function Datenschutz() {
               7. Kinder und Datenschutz
             </h2>
             <p>
-              KlassenarbeitReady ist für Kinder im Grundschulalter konzipiert.
-              Wir erheben keine persönlichen Daten von Kindern ohne
-              Einwilligung der Eltern. Die App kann anonym genutzt werden.
+              KlassenarbeitReady ist ein Werkzeug für Eltern, um ihre Kinder
+              auf Klassenarbeiten vorzubereiten. Die App ist nicht dafür
+              vorgesehen, von Kindern eigenständig und ohne elterliche
+              Aufsicht genutzt zu werden.
+            </p>
+            <p className="mt-4">
+              Wir erheben bewusst keine personenbezogenen Daten von Kindern.
+              Die in der App eingegebenen Spitznamen dienen ausschließlich
+              der Unterscheidung von Kinderprofilen auf dem Gerät und werden
+              nicht für Werbung, Tracking oder Profiling verwendet.
+            </p>
+            <p className="mt-4 font-semibold">
+              Folgende Daten werden gespeichert:
+            </p>
+            <ul className="list-disc pl-6 space-y-2 mt-2">
+              <li>
+                Spitzname und Klassenstufe (vom Elternteil eingegeben)
+              </li>
+              <li>Testergebnisse und Lernfortschritt</li>
+              <li>
+                Anonyme Nutzungskennung (Firebase Anonymous Authentication)
+              </li>
+            </ul>
+            <p className="mt-4">
+              Diese Daten werden ausschließlich zur Bereitstellung der
+              App-Funktionalität verwendet und nicht an Dritte weitergegeben.
+            </p>
+            <p className="mt-4">
+              Eltern können jederzeit alle Daten ihres Kindes löschen:
+              Profil → Einstellungen → Konto löschen.
+            </p>
+            <p className="mt-4">
+              Bei Fragen zum Datenschutz von Kindern wenden Sie sich an:{" "}
+              <a
+                href="mailto:info@gzhn.online"
+                className="text-orange-600 hover:underline"
+              >
+                info@gzhn.online
+              </a>
             </p>
           </section>
 
